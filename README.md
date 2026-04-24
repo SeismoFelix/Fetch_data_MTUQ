@@ -6,7 +6,7 @@ A robust Python package for automating the fetching, processing, and visualizati
 
 If this project is hosted on a Git repository, clone it to your local machine:
 
-    git clone https://github.com/yourusername/Fetch_data_MTUQ.git
+    git clone https://github.com/SeismoFelix/Fetch_data_MTUQ.git
     cd Fetch_data_MTUQ
 
 *(If you downloaded the project folder directly, simply extract it and open your terminal inside the Fetch_data_MTUQ root folder).*
