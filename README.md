@@ -17,8 +17,8 @@ To ensure stability and prevent dependency conflicts, you should install this pa
 
 **Step 2.1: Create and activate the environment**
 
-    conda create -n fetch_data_env python=3.10 -y
-    conda activate fetch_data_env
+    conda create -n fetch_data_mtuq python=3.10 -y
+    conda activate fetch_data_mtuq
 
 **Step 2.2: Install core scientific dependencies**
 Because this package relies on Earth Science libraries with heavy C-dependencies, install them via conda-forge first. We will also install jupyter here so you can run the examples.
