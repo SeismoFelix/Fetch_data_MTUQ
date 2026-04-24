@@ -1,0 +1,19 @@
+{
+  "client_name": "IRIS",
+  "event": {
+    "time": "2026-03-05T11:30:08",
+    "latitude": 32.0679,
+    "longitude": -93.4446,
+    "depth_km": 5.0
+  },
+  "search": {
+    "network_query": "*",
+    "max_distance_degrees": 5.0,
+    "minutes_before": 2,
+    "minutes_after": 30
+  },
+  "processing": {
+    "pre_filter": [0.005, 0.01, 10.0, 20.0],
+    "sample_rate": 100.0
+  }
+}
