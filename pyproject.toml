@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fetch_data_mtuq"
+version = "0.1.0"
+description = "Seismic data fetching and MTUQ processing pipeline"
+authors = [
+    {name = "Félix Rodríguez-Cardozo", email = "frodriguezcardozo@gmail.com"}
+]
+dependencies = [
+    "obspy",
+    "numpy",
+    "matplotlib",
+    "pygmt"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fetch_data_mtuq*"]
